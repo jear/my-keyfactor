@@ -10,3 +10,6 @@ helm install ejbca --set fullnameOverride=ejbca \
 
 
 https://hub.docker.com/u/keyfactor
+
+
+This demonstrated how you can get EJBCA up and running in a Kubernetes cluster for quick tests and demos. For real-world use cases, you need to configure integrations with an external database, an HSM, set up TLS, choose the method for exposing EJBCA to other applications and/or the outside world and more.
